@@ -1,64 +1,44 @@
-# 🚀 NASA Asteroid Analysis
+# NASA Asteroid Analysis
 
-## 📌 Overview
+A data analysis project built with Python and Pandas using real NASA near-Earth object data.
 
-This project analyzes NASA asteroid data using Python.
-It focuses on extracting insights about asteroid characteristics such as distance, size, and potential risk.
+## What it does
 
----
+Loads and analyzes NASA asteroid data from a CSV dataset, extracting insights about asteroid characteristics such as size, distance, and potential risk level.
 
-## 🧠 Features
+## Features
 
-* Data loading from CSV files
-* Data cleaning and preprocessing
-* Analysis of asteroid properties
-* (Optional) Visualization of data trends
+- Data loading and cleaning from CSV
+- Analysis of asteroid properties (size, miss distance, magnitude)
+- Preprocessing and filtering of near-Earth objects
+- Identifies potentially hazardous asteroids
 
----
+## Project Structure
 
-## 📂 Project Structure
+| File | Description |
+|---|---|
+| nasa_asteroid_ds.py | Main analysis script |
+| nasa.csv | NASA near-Earth objects dataset |
 
-```
-nasa-asteroid-analysis/
-│
-├── nasa.csv                  # Dataset
-├── nasa_asteroid_ds.py       # Main analysis script
-├── README.md                 # Project documentation
-```
+## How to run
 
----
+`ash
+pip install pandas matplotlib
+python nasa_asteroid_ds.py
+`
 
-## ⚙️ Technologies Used
+## Tech Stack
 
-* Python 🐍
-* Pandas
-* (Optional) Matplotlib
+- Python 3
+- Pandas
+- Matplotlib
 
----
+## Dataset
 
-## 📊 Dataset
+NASA near-Earth objects dataset containing asteroid name, close approach date, miss distance, absolute magnitude, and other physical properties.
 
-The dataset contains information about near-Earth objects provided by NASA, including:
+## Author
 
-* Asteroid name
-* Close approach date
-* Absolute magnitude
-* Miss distance (km)
-* Other physical properties
-
----
-
-## 🎯 Goals
-
-* Practice data analysis with real-world datasets
-* Improve Python and Pandas skills
-* Build a strong portfolio project
-
----
-
-## 👨‍💻 Author
-
-**Mahmoud Zangri**
-Computer Science Student – Open University of Israel
+Mahmoud Zangri — Computer Science Student, Open University of Israel
 
 GitHub: https://github.com/mahmoudz2000
